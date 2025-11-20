@@ -40,3 +40,9 @@
 
 - this allow port 80
 
+
+
+ docker run -d -e MYSQL_ROOT_PASSWORD=VIKAS --name mysql -p8080:3306 mysql
+node js application
+
+
