@@ -1,0 +1,9 @@
+docker run -p <host_port>:<container_port> <image_name>
+docker run -d -p 8080:80 nginx                          |Run a container with port mapping
+docker run -d -p 8080:80 -p 443:443 nginx               |Map multiple ports
+docker run -d -p 127.0.0.1:8080:80 nginx                |Specify host IP for binding
+
+
+
+
+docker run -d -p 9090:80 --name tagid_solution nginx            port no and   container name 
