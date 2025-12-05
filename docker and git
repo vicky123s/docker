@@ -1,0 +1,10 @@
+dockerfile to images(is blueprint for create container  all instruction )  to container
+git & github 1)open source 
+             2) fastand scalable
+             3) free to use
+             $) 
+
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git config --global init.defaultBranch main
